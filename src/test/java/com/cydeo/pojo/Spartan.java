@@ -1,5 +1,10 @@
 package com.cydeo.pojo;
 
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+@JsonIgnoreProperties(value="id",allowSetters = true)
 public class Spartan {
 
     private int id;
