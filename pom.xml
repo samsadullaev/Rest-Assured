@@ -36,6 +36,14 @@
             <version>2.13.0</version>
         </dependency>
 
+<!-- instead of keep writing  getter setter, it has methods for us-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+        </dependency>
+
+
     </dependencies>
 
 </project>
