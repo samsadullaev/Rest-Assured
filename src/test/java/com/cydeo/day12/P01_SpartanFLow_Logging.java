@@ -13,7 +13,7 @@ import java.util.Map;
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class P04_SpartanFlow extends SpartanTestBase {
+public class P01_SpartanFLow_Logging extends SpartanTestBase {
 
 /*
 - POST     /api/spartans
